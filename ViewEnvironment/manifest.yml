@@ -3,5 +3,6 @@ applications:
 - name: dotnet-app
   host: dotnet-framework
   memory: 1024m
-  stack: windows2012R2
+  random-route: true
+  stack: windows2016
   buildpack: hwc_buildpack
